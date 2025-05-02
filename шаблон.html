@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://digital-philosophy.ru/">
+<meta property="og:image" content="https://digital-philosophy.ru/event/asset/7vk.png">
+<meta name="twitter:card" content="https://digital-philosophy.ru/event/asset/7vk.png">
+<link href="https://digital-philosophy.ru//css/bs.css" rel="stylesheet">
+  <style>
+    .page-section { display: none; }
+    .page-section.active { display: block; }
+  </style>
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();
+  for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+  k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+  ym(93100252, "init", {
+       clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true,
+       webvisor:true
+  });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/93100252" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JVF159BX08"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JVF159BX08');
+</script>
+
+</head>
+<body>
+  <div class="container py-5">
+    <h1 class="mb-4 text-center"><a href="https://digital-philosophy.ru/">🏠︎</a> 
+    
+    </h1>
+    <h2>
+
+    </h2>
+    <p> <i> Материалы конференции "Философские аспекты языковых моделей искусственного интеллекта". Лаборатория цифровой философии, 2025 </i></p>
+    <!-- Text Content Split into Sections -->
+    <div id="textPages">
+      <div class="page-section active">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+      </div>
+      <div class="page-section">
+        <p>Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
+      </div>
+      <div class="page-section">
+        <p>Proin porttitoe, consequat in, pretium a, enim.</p>
+      </div>
+      <div class="page-section">
+        <p>Pellentesque congue.</p>
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center mt-4" id="pagination">
+        <li class="page-item"><a class="page-link" href="#" onclick="showPage(0)">1</a></li>
+        <li class="page-item"><a class="page-link" href="#" onclick="showPage(1)">2</a></li>
+        <li class="page-item"><a class="page-link" href="#" onclick="showPage(2)">3</a></li>
+        <li class="page-item"><a class="page-link" href="#" onclick="showPage(3)">4</a></li>
+      </ul>
+    </nav>
+
+    <!-- Accordion for Supplementary Info -->
+    <div class="accordion mt-5" id="supplementaryAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           Обсуждения
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#supplementaryAccordion">
+          <div class="accordion-body">
+            Supplementary information content for section 1.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Сгенерированный нейросетью текст (может содержать ошибки и неточности)
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#supplementaryAccordion">
+          <div class="accordion-body">
+            Supplementary information content for section 2.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showPage(index) {
+      const pages = document.querySelectorAll('.page-section');
+      pages.forEach((page, i) => {
+        page.classList.toggle('active', i === index);
+      });
+    }
+  </script>
+
+  <script src="https://digital-philosophy.ru/JS/bsJS.js"></script>
+</body>
+</html>
